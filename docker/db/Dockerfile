@@ -1,7 +1,10 @@
-FROM postgres
+FROM postgres:15-alpine
 
-ENV POSTGRES_PASSWORD docker
-ENV POSTGRES_DB db
-ENV POSTGRES_USER docker
+# Set environment variables
+ENV POSTGRES_DB=game_items \
+    POSTGRES_USER=postgres \
+    POSTGRES_PASSWORD=postgres
 
-COPY . /app/database
+# Create app directory
+RUN mkdir -p /app/database
+WORKDIR /app/database

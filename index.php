@@ -1,129 +1,85 @@
 <?php
-/**
- * Bazowy landing page w czystym pliku PHP z osadzonym HTML/CSS
- * Autor: [Tu wpisz swoje imię/nazwisko lub nazwę]
- */
+session_start();
 
-// Możesz tu opcjonalnie dodać kod PHP do obsługi formularzy,
-// wykonywania logiki serwera itp.
-?>
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+header('Expires: Sun, 02 Jan 1990 00:00:00 GMT');
 
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <title>Moja Strona - Landing Page</title>
-    <style>
-        /* Prosty reset stylów */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f9f9f9;
-        }
+require_once 'src/Config/Database.php';
+require_once 'src/Router.php';
+require_once 'src/Controller/BaseController.php';
+require_once 'src/Controller/AuthController.php';
+require_once 'src/Controller/ItemController.php';
+require_once 'src/Controller/AccountController.php';
+require_once 'src/Model/BaseModel.php';
+require_once 'src/Model/User.php';
+require_once 'src/Model/Item.php';
+require_once 'src/Model/Profile.php';
+require_once 'src/Utils/AssetHelper.php';
+require_once 'src/Controller/ManagementController.php';
+require_once 'src/Repository/BaseRepository.php';
+require_once 'src/Repository/ItemRepository.php';
 
-        header {
-            background: #007BFF;
-            color: white;
-            padding: 1.5rem;
-            text-align: center;
-        }
+use App\Router;
+use App\Controller\AuthController;
+use App\Controller\ItemController;
+use App\Controller\AccountController;
+use App\Controller\ManagementController;
 
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            background: #fff;
-            padding: 2rem;
-            border-radius: 8px;
-        }
+$router = Router::getInstance();
 
-        h1, h2 {
-            margin-bottom: 1rem;
-        }
+// Auth routes
+$router->addRoute('GET', '/login', AuthController::class, 'login');
+$router->addRoute('POST', '/login', AuthController::class, 'login');
+$router->addRoute('GET', '/register', AuthController::class, 'register');
+$router->addRoute('POST', '/register', AuthController::class, 'register');
+$router->addRoute('GET', '/logout', AuthController::class, 'logout');
 
-        .hero {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
+// Management routes
+$router->addRoute('GET', '/management', ManagementController::class, 'index', true);
+$router->addRoute('GET', '/management/profile', ManagementController::class, 'profile', true);
+$router->addRoute('GET', '/management/account', ManagementController::class, 'account', true);
+$router->addRoute('GET', '/management/activity', ManagementController::class, 'activity', true);
+$router->addRoute('POST', '/management/profile/update', ManagementController::class, 'updateProfile', true);
+$router->addRoute('POST', '/management/profile/avatar', ManagementController::class, 'updateAvatar', true);
+$router->addRoute('POST', '/management/account/update', ManagementController::class, 'updateAccount', true);
+$router->addRoute('POST', '/management/account/password', ManagementController::class, 'updatePassword', true);
 
-        .hero img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
+// Item management routes
+$router->addRoute('GET', '/management/items', ManagementController::class, 'items', true);
+$router->addRoute('GET', '/management/items/new', ManagementController::class, 'newItem', true);
+$router->addRoute('POST', '/management/items/new', ManagementController::class, 'newItem', true);
+$router->addRoute('GET', '/management/items/edit/([0-9]+)', ManagementController::class, 'editItem', true);
+$router->addRoute('POST', '/management/items/edit/([0-9]+)', ManagementController::class, 'editItem', true);
+$router->addRoute('POST', '/management/items/delete/([0-9]+)', ManagementController::class, 'deleteItem', true);
 
-        .hero h2 {
-            margin-top: 1rem;
-            font-size: 1.8rem;
-        }
+// Account routes (legacy - to be migrated)
+$router->addRoute('GET', '/account', AccountController::class, 'index');
+$router->addRoute('POST', '/account/update-profile', AccountController::class, 'updateProfile');
+$router->addRoute('POST', '/account/update-password', AccountController::class, 'updatePassword');
 
-        .cta-button {
-            display: inline-block;
-            margin-top: 1.5rem;
-            padding: 0.75rem 1.5rem;
-            background: #28a745;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background 0.3s;
-        }
+// Item routes
+$router->addRoute('GET', '/', ItemController::class, 'landing');
+$router->addRoute('GET', '/items', ItemController::class, 'index');
+$router->addRoute('GET', '/api/items', ItemController::class, 'index');
+$router->addRoute('GET', '/items/:id', ItemController::class, 'show');
+$router->addRoute('GET', '/items/create', ItemController::class, 'create', true);
+$router->addRoute('POST', '/items/create', ItemController::class, 'create', true);
+$router->addRoute('GET', '/items/:id/edit', ItemController::class, 'edit', true);
+$router->addRoute('POST', '/items/:id/edit', ItemController::class, 'edit', true);
+$router->addRoute('POST', '/items/:id/delete', ItemController::class, 'delete', true);
 
-        .cta-button:hover {
-            background: #218838;
-        }
+// Blob routes
+$router->addRoute('GET', '/blob/([0-9]+)', ItemController::class, 'serveBlob');
 
-        footer {
-            text-align: center;
-            padding: 1.5rem;
-            margin-top: 2rem;
-            background: #f0f0f0;
-        }
+// Handle the request and get the content
+$content = $router->route();
 
-        footer p {
-            color: #777;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Moja Firma</h1>
-</header>
-
-<main>
-    <section class="hero">
-        <img src="https://via.placeholder.com/800x400" alt="Zdjęcie promocyjne">
-        <h2>Witamy na naszej stronie!</h2>
-        <p>
-            Oferujemy najlepsze produkty i usługi, które spełnią Twoje oczekiwania. 
-            Zapoznaj się z naszą ofertą i dołącz do tysięcy zadowolonych klientów.
-        </p>
-        <a href="#" class="cta-button">Skontaktuj się z nami</a>
-    </section>
-
-    <section>
-        <h2>Dlaczego warto nas wybrać?</h2>
-        <p>
-            Nasza firma to wieloletnie doświadczenie i zespół specjalistów, którzy zadbają 
-            o to, byś otrzymał produkt najwyższej jakości.
-        </p>
-        <ul>
-            <li>Wysoka jakość usług</li>
-            <li>Szybki czas realizacji</li>
-            <li>Indywidualne podejście do klienta</li>
-        </ul>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2025 Moja Firma. Wszelkie prawa zastrzeżone.</p>
-</footer>
-
-</body>
-</html>
+// Output the content
+if ($content !== false && $content !== null) {
+    echo $content;
+}

@@ -1,37 +1,41 @@
-FROM php:7.4.3-fpm-alpine3.11
+FROM php:8.2-fpm-alpine
 
-ENV RUN_DEPS \
-    zlib \
-    libzip \
-    libpng \
-    libjpeg-turbo \
-    postgresql-libs
-
-ENV BUILD_DEPS \
-    zlib-dev \
-    libzip-dev \
+# Install system dependencies
+RUN apk add --no-cache \
+    postgresql-dev \
     libpng-dev \
     libjpeg-turbo-dev \
-    postgresql-dev
+    libzip-dev \
+    icu-dev \
+    oniguruma-dev \
+    linux-headers \
+    libpq
 
-ENV PHP_EXTENSIONS \
-    opcache \
-    zip \
-    gd \
-    bcmath \
-    pgsql \
-    pdo_pgsql
+# Install PHP extensions
+RUN docker-php-ext-configure gd --with-jpeg \
+    && docker-php-ext-install -j$(nproc) \
+        pdo_pgsql \
+        pgsql \
+        gd \
+        zip \
+        intl \
+        opcache \
+        pdo \
+        pdo_pgsql
 
-RUN apk add --no-cache --virtual .build-deps $BUILD_DEPS \
-    && docker-php-ext-configure gd --with-jpeg \
-    && docker-php-ext-install -j "$(nproc)" $PHP_EXTENSIONS \
-    && apk del .build-deps
+# Configure PHP
+RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
 
-RUN apk add --no-cache --virtual .run-deps $RUN_DEPS
+# Create directory for custom PHP configuration
+RUN mkdir -p /usr/local/etc/php/custom.d \
+    && mkdir -p /var/log/php \
+    && chown www-data:www-data /var/log/php
 
-RUN echo 'memory_limit = -1' >> /usr/local/etc/php/conf.d/docker-php-memlimit.ini;
+# Add custom PHP configuration
+COPY docker/php/custom.ini /usr/local/etc/php/custom.d/custom.ini
 
-# Copy the application code
-COPY . /app
+# Set working directory
+WORKDIR /app
 
+# Create volume
 VOLUME ["/app"]

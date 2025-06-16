@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <rect width="200" height="200" fill="#2a2a2a"/>
+    <g fill="#666">
+        <path d="M100 70 L130 100 L100 130 L70 100 Z"/>
+        <circle cx="100" cy="100" r="20" fill="none" stroke="#666" stroke-width="4"/>
+    </g>
+    <text x="100" y="160" font-family="Arial" font-size="14" fill="#999" text-anchor="middle">No Image</text>
+</svg> 

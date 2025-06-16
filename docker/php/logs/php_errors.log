@@ -1,0 +1,1793 @@
+[13-Jun-2025 10:09:23 UTC] PHP Warning:  Undefined variable $undefinedVariable in /app/index.php on line 6
+[13-Jun-2025 10:09:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /app/index.php on line 64
+[13-Jun-2025 10:09:29 UTC] PHP Warning:  Undefined variable $undefinedVariable in /app/index.php on line 6
+[13-Jun-2025 10:09:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /app/index.php on line 64
+[13-Jun-2025 10:09:32 UTC] PHP Warning:  Undefined variable $undefinedVariable in /app/index.php on line 6
+[13-Jun-2025 10:09:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /app/index.php on line 64
+[13-Jun-2025 10:09:33 UTC] PHP Warning:  Undefined variable $undefinedVariable in /app/index.php on line 6
+[13-Jun-2025 10:09:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /app/index.php on line 64
+[13-Jun-2025 10:09:53 UTC] PHP Warning:  Undefined variable $undefinedVariable in /app/index.php on line 6
+[13-Jun-2025 10:09:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /app/index.php on line 64
+[13-Jun-2025 10:10:23 UTC] PHP Warning:  Undefined variable $undefinedVariable in /app/index.php on line 6
+[13-Jun-2025 10:10:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /app/index.php on line 64
+[13-Jun-2025 10:36:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/index.php:9) in /app/src/Controller/BaseController.php on line 51
+[13-Jun-2025 10:37:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/index.php:9) in /app/src/Controller/BaseController.php on line 51
+[13-Jun-2025 10:40:56 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:41:26 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:41:56 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:42:26 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:42:48 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:42:54 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:42:56 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:43:26 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:43:56 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:44:26 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:44:56 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:45:26 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:45:26 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 10:45:27 UTC] PHP Parse error:  Unmatched '}' in /app/src/Router.php on line 63
+[13-Jun-2025 11:06:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\User::getById() in /app/src/Controller/AuthController.php:86
+Stack trace:
+#0 /app/src/Router.php(44): App\Controller\AuthController->profile()
+#1 /app/index.php(58): App\Router->route()
+#2 {main}
+  thrown in /app/src/Controller/AuthController.php on line 86
+[13-Jun-2025 11:12:01 UTC] PHP Warning:  include(views/partials/header.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 1
+[13-Jun-2025 11:12:01 UTC] PHP Warning:  include(): Failed opening 'views/partials/header.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 1
+[13-Jun-2025 11:12:01 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:12:01 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:12:31 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:12:31 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:13:01 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:13:01 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:13:31 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:13:31 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:14:01 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:14:01 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:14:31 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:14:31 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:15:02 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:15:02 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:15:32 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:15:32 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:16:02 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:16:02 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:16:32 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:16:32 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:17:02 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:17:02 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:17:32 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:17:32 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:18:02 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:18:02 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:18:19 UTC] PHP Warning:  Undefined property: App\Model\User::$database in /app/src/Model/User.php on line 38
+[13-Jun-2025 11:18:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function connect() on null in /app/src/Model/User.php:38
+Stack trace:
+#0 /app/src/Controller/AuthController.php(86): App\Model\User->getById('2')
+#1 /app/src/Router.php(44): App\Controller\AuthController->profile()
+#2 /app/index.php(58): App\Router->route()
+#3 {main}
+  thrown in /app/src/Model/User.php on line 38
+[13-Jun-2025 11:18:21 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:18:21 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:18:32 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:18:32 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:19:02 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:19:02 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:19:33 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:19:33 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:20:03 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:20:03 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:20:33 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:20:33 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:21:03 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:21:03 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:21:33 UTC] PHP Warning:  include(views/partials/footer.php): Failed to open stream: No such file or directory in /app/views/items/index.php on line 49
+[13-Jun-2025 11:21:33 UTC] PHP Warning:  include(): Failed opening 'views/partials/footer.php' for inclusion (include_path='.:/usr/local/lib/php') in /app/views/items/index.php on line 49
+[13-Jun-2025 11:38:38 UTC] PHP Warning:  Undefined property: App\Model\User::$database in /app/src/Model/User.php on line 20
+[13-Jun-2025 11:38:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function connect() on null in /app/src/Model/User.php:20
+Stack trace:
+#0 /app/src/Controller/AuthController.php(22): App\Model\User->authenticate('user@demo.io', 'secret123')
+#1 /app/src/Router.php(44): App\Controller\AuthController->login()
+#2 /app/index.php(60): App\Router->route()
+#3 {main}
+  thrown in /app/src/Model/User.php on line 20
+[13-Jun-2025 11:42:10 UTC] PHP Warning:  Undefined array key "password" in /app/src/Model/User.php on line 26
+[13-Jun-2025 11:42:10 UTC] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /app/src/Model/User.php on line 26
+[13-Jun-2025 12:04:59 UTC] Authentication error: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "password" does not exist
+LINE 2:                 SELECT id, email, password, role FROM users ...
+                                          ^
+[13-Jun-2025 12:05:10 UTC] Authentication error: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "password" does not exist
+LINE 2:                 SELECT id, email, password, role FROM users ...
+                                          ^
+[14-Jun-2025 15:06:49 UTC] PHP Fatal error:  Uncaught Error: Class "App\Utils\AssetHelper" not found in /app/views/layout.php:24
+Stack trace:
+#0 /app/src/Controller/BaseController.php(27): include()
+#1 /app/src/Controller/ItemController.php(9): App\Controller\BaseController->render('landing')
+#2 /app/src/Router.php(44): App\Controller\ItemController->landing()
+#3 /app/index.php(60): App\Router->route()
+#4 {main}
+  thrown in /app/views/layout.php on line 24
+[14-Jun-2025 16:51:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2:             SELECT id, email, role, account_name, created_at...
+                                            ^ in /app/src/Model/User.php:93
+Stack trace:
+#0 /app/src/Model/User.php(93): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(86): App\Model\User->getById(2)
+#2 /app/src/Router.php(44): App\Controller\AuthController->profile()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 93
+[14-Jun-2025 16:51:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2:             SELECT id, email, role, account_name, created_at...
+                                            ^ in /app/src/Model/User.php:93
+Stack trace:
+#0 /app/src/Model/User.php(93): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(86): App\Model\User->getById(2)
+#2 /app/src/Router.php(44): App\Controller\AuthController->profile()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 93
+[14-Jun-2025 16:51:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2:             SELECT id, email, role, account_name, created_at...
+                                            ^ in /app/src/Model/User.php:93
+Stack trace:
+#0 /app/src/Model/User.php(93): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(86): App\Model\User->getById(2)
+#2 /app/src/Router.php(44): App\Controller\AuthController->profile()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 93
+[14-Jun-2025 16:51:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2:             SELECT id, email, role, account_name, created_at...
+                                            ^ in /app/src/Model/User.php:93
+Stack trace:
+#0 /app/src/Model/User.php(93): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(86): App\Model\User->getById(2)
+#2 /app/src/Router.php(44): App\Controller\AuthController->profile()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 93
+[14-Jun-2025 16:51:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2:             SELECT id, email, role, account_name, created_at...
+                                            ^ in /app/src/Model/User.php:93
+Stack trace:
+#0 /app/src/Model/User.php(93): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(86): App\Model\User->getById(2)
+#2 /app/src/Router.php(44): App\Controller\AuthController->profile()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 93
+[14-Jun-2025 16:51:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2:             SELECT id, email, role, account_name, created_at...
+                                            ^ in /app/src/Model/User.php:93
+Stack trace:
+#0 /app/src/Model/User.php(93): PDOStatement->execute(Array)
+#1 /app/src/Controller/AccountController.php(17): App\Model\User->getById(2)
+#2 /app/src/Router.php(44): App\Controller\AccountController->index()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 93
+[14-Jun-2025 16:56:54 UTC] PHP Warning:  Undefined array key "account_name" in /app/src/Model/User.php on line 34
+[14-Jun-2025 16:56:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/src/Model/User.php:34) in /app/src/Controller/BaseController.php on line 37
+[14-Jun-2025 16:57:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2:             SELECT id, email, role, account_name, created_at...
+                                            ^ in /app/src/Model/User.php:93
+Stack trace:
+#0 /app/src/Model/User.php(93): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(86): App\Model\User->getById(2)
+#2 /app/src/Router.php(44): App\Controller\AuthController->profile()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 93
+[14-Jun-2025 17:00:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2: ...           SELECT id, email, password_hash, role, account_na...
+                                                             ^ in /app/src/Model/User.php:27
+Stack trace:
+#0 /app/src/Model/User.php(27): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(22): App\Model\User->authenticate('user@demo.io', 'secret123')
+#2 /app/src/Router.php(44): App\Controller\AuthController->login()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 27
+[14-Jun-2025 17:00:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2: ...           SELECT id, email, password_hash, role, account_na...
+                                                             ^ in /app/src/Model/User.php:27
+Stack trace:
+#0 /app/src/Model/User.php(27): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(22): App\Model\User->authenticate('user@demo.io', 'secret123')
+#2 /app/src/Router.php(44): App\Controller\AuthController->login()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 27
+[14-Jun-2025 17:00:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2: ...           SELECT id, email, password_hash, role, account_na...
+                                                             ^ in /app/src/Model/User.php:27
+Stack trace:
+#0 /app/src/Model/User.php(27): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(22): App\Model\User->authenticate('user@demo.io', 'secret123')
+#2 /app/src/Router.php(44): App\Controller\AuthController->login()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 27
+[14-Jun-2025 17:00:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2: ...           SELECT id, email, password_hash, role, account_na...
+                                                             ^ in /app/src/Model/User.php:27
+Stack trace:
+#0 /app/src/Model/User.php(27): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(22): App\Model\User->authenticate('user@demo.io', 'secret123')
+#2 /app/src/Router.php(44): App\Controller\AuthController->login()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 27
+[14-Jun-2025 17:01:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2: ...           SELECT id, email, password_hash, role, account_na...
+                                                             ^ in /app/src/Model/User.php:27
+Stack trace:
+#0 /app/src/Model/User.php(27): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(22): App\Model\User->authenticate('user@demo.io', 'secret123')
+#2 /app/src/Router.php(44): App\Controller\AuthController->login()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 27
+[14-Jun-2025 17:04:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2: ...           SELECT id, email, password_hash, role, account_na...
+                                                             ^ in /app/src/Model/User.php:27
+Stack trace:
+#0 /app/src/Model/User.php(27): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(22): App\Model\User->authenticate('user@demo.io', 'secret123')
+#2 /app/src/Router.php(44): App\Controller\AuthController->login()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 27
+[14-Jun-2025 17:04:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "account_name" does not exist
+LINE 2: ...           SELECT id, email, password_hash, role, account_na...
+                                                             ^ in /app/src/Model/User.php:27
+Stack trace:
+#0 /app/src/Model/User.php(27): PDOStatement->execute(Array)
+#1 /app/src/Controller/AuthController.php(22): App\Model\User->authenticate('user@demo.io', 'secret123')
+#2 /app/src/Router.php(44): App\Controller\AuthController->login()
+#3 /app/index.php(74): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/User.php on line 27
+[14-Jun-2025 17:24:26 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:24:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:24:42 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:24:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:24:47 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:24:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:24:47 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:24:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:24:49 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:24:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:24:50 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:24:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:24:51 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:24:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:24:57 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:24:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:25:27 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:25:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:25:57 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:25:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:26:27 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:26:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:26:57 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:26:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:27:24 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:27:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:27:27 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:27:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:28:35 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:28:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:29:05 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:29:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:29:35 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:29:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:30:19 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:30:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:30:49 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:30:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:31:19 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:31:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:31:27 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:31:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:31:28 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:31:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:31:50 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:31:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:32:20 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:32:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:32:50 UTC] PHP Warning:  require_once(src/Controller/DefaultController.php): Failed to open stream: No such file or directory in /app/index.php on line 25
+[14-Jun-2025 17:32:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Controller/DefaultController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 25
+[14-Jun-2025 17:42:52 UTC] PHP Fatal error:  Uncaught Error: Call to private App\Router::__construct() from global scope in /app/index.php:44
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 44
+[14-Jun-2025 17:47:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class App\Controller\ItemController does not have a method "items" in /app/src/Router.php:47
+Stack trace:
+#0 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#1 /app/index.php(67): App\Router->route()
+#2 {main}
+  thrown in /app/src/Router.php on line 47
+[14-Jun-2025 18:25:00 UTC] PHP Warning:  require_once(/app/scripts/../src/Database.php): Failed to open stream: No such file or directory in /app/scripts/run_migrations.php on line 3
+[14-Jun-2025 18:25:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/app/scripts/../src/Database.php' (include_path='.:/usr/local/lib/php') in /app/scripts/run_migrations.php:3
+Stack trace:
+#0 /app/scripts/setup.php(12): require_once()
+#1 {main}
+  thrown in /app/scripts/run_migrations.php on line 3
+[14-Jun-2025 18:25:57 UTC] PHP Warning:  require_once(/app/scripts/../src/models/User.php): Failed to open stream: No such file or directory in /app/scripts/create_missing_profiles.php on line 4
+[14-Jun-2025 18:25:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/app/scripts/../src/models/User.php' (include_path='.:/usr/local/lib/php') in /app/scripts/create_missing_profiles.php:4
+Stack trace:
+#0 /app/scripts/setup.php(17): require_once()
+#1 {main}
+  thrown in /app/scripts/create_missing_profiles.php on line 4
+[14-Jun-2025 18:26:57 UTC] PHP Fatal error:  Uncaught Error: Class "App\Model\BaseModel" not found in /app/src/Model/User.php:5
+Stack trace:
+#0 /app/scripts/create_missing_profiles.php(4): require_once()
+#1 /app/scripts/setup.php(17): require_once('/app/scripts/cr...')
+#2 {main}
+  thrown in /app/src/Model/User.php on line 5
+[14-Jun-2025 18:29:54 UTC] PHP Fatal error:  Uncaught Error: Class "App\Config\Database" not found in /app/src/Model/BaseModel.php:11
+Stack trace:
+#0 /app/src/Model/Profile.php(23): App\Model\BaseModel->__construct()
+#1 /app/scripts/create_missing_profiles.php(32): App\Model\Profile->__construct()
+#2 /app/scripts/setup.php(17): require_once('/app/scripts/cr...')
+#3 {main}
+  thrown in /app/src/Model/BaseModel.php on line 11
+[14-Jun-2025 18:33:23 UTC] Failed to create profile: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type boolean: ""
+CONTEXT:  unnamed portal parameter $3 = ''
+[14-Jun-2025 18:33:23 UTC] Failed to create profile: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type boolean: ""
+CONTEXT:  unnamed portal parameter $3 = ''
+[14-Jun-2025 18:33:50 UTC] Failed to create profile: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type boolean: ""
+CONTEXT:  unnamed portal parameter $3 = ''
+[14-Jun-2025 18:33:50 UTC] Failed to create profile: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type boolean: ""
+CONTEXT:  unnamed portal parameter $3 = ''
+[14-Jun-2025 18:34:39 UTC] Failed to create profile for user user@demo.io (ID: 2)
+[14-Jun-2025 18:34:39 UTC] Failed to create profile for user admin@demo.io (ID: 1)
+[14-Jun-2025 18:35:57 UTC] PHP Warning:  Undefined variable $profile in /app/views/management/profile.php on line 14
+[14-Jun-2025 18:35:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAvatarUrl() on null in /app/views/management/profile.php:14
+Stack trace:
+#0 /app/src/Controller/BaseController.php(17): include()
+#1 /app/src/Controller/ManagementController.php(28): App\Controller\BaseController->render('management/prof...', Array)
+#2 [internal function]: App\Controller\ManagementController->profile()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(73): App\Router->route()
+#5 {main}
+  thrown in /app/views/management/profile.php on line 14
+[14-Jun-2025 18:36:02 UTC] PHP Warning:  Undefined variable $profile in /app/views/management/profile.php on line 14
+[14-Jun-2025 18:36:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAvatarUrl() on null in /app/views/management/profile.php:14
+Stack trace:
+#0 /app/src/Controller/BaseController.php(17): include()
+#1 /app/src/Controller/ManagementController.php(28): App\Controller\BaseController->render('management/prof...', Array)
+#2 [internal function]: App\Controller\ManagementController->profile()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(73): App\Router->route()
+#5 {main}
+  thrown in /app/views/management/profile.php on line 14
+[14-Jun-2025 18:36:06 UTC] PHP Warning:  Undefined variable $profile in /app/views/management/profile.php on line 14
+[14-Jun-2025 18:36:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAvatarUrl() on null in /app/views/management/profile.php:14
+Stack trace:
+#0 /app/src/Controller/BaseController.php(17): include()
+#1 /app/src/Controller/ManagementController.php(28): App\Controller\BaseController->render('management/prof...', Array)
+#2 [internal function]: App\Controller\ManagementController->profile()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(73): App\Router->route()
+#5 {main}
+  thrown in /app/views/management/profile.php on line 14
+[14-Jun-2025 19:16:11 UTC] PHP Fatal error:  Uncaught Error: Class "App\Repository\ItemRepository" not found in /app/src/Controller/ManagementController.php:19
+Stack trace:
+#0 /app/src/Router.php(46): App\Controller\ManagementController->__construct()
+#1 /app/index.php(83): App\Router->route()
+#2 {main}
+  thrown in /app/src/Controller/ManagementController.php on line 19
+[14-Jun-2025 19:16:17 UTC] PHP Fatal error:  Uncaught Error: Class "App\Repository\ItemRepository" not found in /app/src/Controller/ManagementController.php:19
+Stack trace:
+#0 /app/src/Router.php(46): App\Controller\ManagementController->__construct()
+#1 /app/index.php(83): App\Router->route()
+#2 {main}
+  thrown in /app/src/Controller/ManagementController.php on line 19
+[14-Jun-2025 19:20:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:21:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:30:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:33:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:37:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:37:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:37:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:37:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:38:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:39:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:40:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[14-Jun-2025 19:40:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 09:57:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 09:59:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 10:21:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 10:21:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "user_id" does not exist
+LINE 3:             WHERE user_id = $1 
+                          ^ in /app/src/Repository/ItemRepository.php:15
+Stack trace:
+#0 /app/src/Repository/ItemRepository.php(15): PDOStatement->execute(Array)
+#1 /app/src/Controller/ManagementController.php(225): App\Repository\ItemRepository->getByUserId(1)
+#2 [internal function]: App\Controller\ManagementController->items()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(85): App\Router->route()
+#5 {main}
+  thrown in /app/src/Repository/ItemRepository.php on line 15
+[15-Jun-2025 10:23:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "user_id" does not exist
+LINE 3:             WHERE user_id = $1 
+                          ^ in /app/src/Repository/ItemRepository.php:15
+Stack trace:
+#0 /app/src/Repository/ItemRepository.php(15): PDOStatement->execute(Array)
+#1 /app/src/Controller/ManagementController.php(225): App\Repository\ItemRepository->getByUserId(1)
+#2 [internal function]: App\Controller\ManagementController->items()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(85): App\Router->route()
+#5 {main}
+  thrown in /app/src/Repository/ItemRepository.php on line 15
+[15-Jun-2025 10:23:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "user_id" does not exist
+LINE 3:             WHERE user_id = $1 
+                          ^ in /app/src/Repository/ItemRepository.php:15
+Stack trace:
+#0 /app/src/Repository/ItemRepository.php(15): PDOStatement->execute(Array)
+#1 /app/src/Controller/ManagementController.php(225): App\Repository\ItemRepository->getByUserId(1)
+#2 [internal function]: App\Controller\ManagementController->items()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(85): App\Router->route()
+#5 {main}
+  thrown in /app/src/Repository/ItemRepository.php on line 15
+[15-Jun-2025 10:24:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "user_id" does not exist
+LINE 3:             WHERE user_id = $1 
+                          ^ in /app/src/Repository/ItemRepository.php:15
+Stack trace:
+#0 /app/src/Repository/ItemRepository.php(15): PDOStatement->execute(Array)
+#1 /app/src/Controller/ManagementController.php(225): App\Repository\ItemRepository->getByUserId(1)
+#2 [internal function]: App\Controller\ManagementController->items()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(85): App\Router->route()
+#5 {main}
+  thrown in /app/src/Repository/ItemRepository.php on line 15
+[15-Jun-2025 10:33:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 10:36:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 10:39:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 18:48:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:02:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:05:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controller\ManagementController::validateCsrfToken() in /app/src/Controller/ManagementController.php:237
+Stack trace:
+#0 [internal function]: App\Controller\ManagementController->newItem()
+#1 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#2 /app/index.php(85): App\Router->route()
+#3 {main}
+  thrown in /app/src/Controller/ManagementController.php on line 237
+[15-Jun-2025 19:10:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "notes" of relation "items" does not exist
+LINE 2: ...INTO items (name, type, act, rarity, description, notes, use...
+                                                             ^ in /app/src/Repository/ItemRepository.php:40
+Stack trace:
+#0 /app/src/Repository/ItemRepository.php(40): PDOStatement->execute(Array)
+#1 /app/src/Controller/ManagementController.php(271): App\Repository\ItemRepository->save(Object(App\Model\Item))
+#2 [internal function]: App\Controller\ManagementController->newItem()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(85): App\Router->route()
+#5 {main}
+  thrown in /app/src/Repository/ItemRepository.php on line 40
+[15-Jun-2025 19:11:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "image_url" of relation "items" does not exist
+LINE 2: ..., type, act, rarity, description, notes, user_id, image_url,...
+                                                             ^ in /app/src/Repository/ItemRepository.php:40
+Stack trace:
+#0 /app/src/Repository/ItemRepository.php(40): PDOStatement->execute(Array)
+#1 /app/src/Controller/ManagementController.php(271): App\Repository\ItemRepository->save(Object(App\Model\Item))
+#2 [internal function]: App\Controller\ManagementController->newItem()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(85): App\Router->route()
+#5 {main}
+  thrown in /app/src/Repository/ItemRepository.php on line 40
+[15-Jun-2025 19:11:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "image_url" of relation "items" does not exist
+LINE 2: ..., type, act, rarity, description, notes, user_id, image_url,...
+                                                             ^ in /app/src/Repository/ItemRepository.php:40
+Stack trace:
+#0 /app/src/Repository/ItemRepository.php(40): PDOStatement->execute(Array)
+#1 /app/src/Controller/ManagementController.php(271): App\Repository\ItemRepository->save(Object(App\Model\Item))
+#2 [internal function]: App\Controller\ManagementController->newItem()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(85): App\Router->route()
+#5 {main}
+  thrown in /app/src/Repository/ItemRepository.php on line 40
+[15-Jun-2025 19:13:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:13:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:13:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:13:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:13:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:13:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:13:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:27:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:29:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[15-Jun-2025 19:30:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::search() in /app/src/Controller/ItemController.php:34
+Stack trace:
+#0 /app/src/Controller/ItemController.php(14): App\Controller\ItemController->apiIndex()
+#1 [internal function]: App\Controller\ItemController->index()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(85): App\Router->route()
+#4 {main}
+  thrown in /app/src/Controller/ItemController.php on line 34
+[16-Jun-2025 12:24:54 UTC] PHP Warning:  require_once(/app/src/Controller/AdminController.php): Failed to open stream: No such file or directory in /app/index.php on line 19
+[16-Jun-2025 12:24:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/app/src/Controller/AdminController.php' (include_path='.:/usr/local/lib/php') in /app/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 19
+[16-Jun-2025 12:54:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Model\Item::getThumbnailId() in /app/views/management/items.php:28
+Stack trace:
+#0 /app/src/Controller/ManagementController.php(231): require_once()
+#1 [internal function]: App\Controller\ManagementController->items()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(81): App\Router->route()
+#4 {main}
+  thrown in /app/views/management/items.php on line 28
+[16-Jun-2025 12:59:29 UTC] PHP Warning:  Undefined property: App\Model\Item::$db in /app/src/Model/Item.php on line 140
+[16-Jun-2025 12:59:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /app/src/Model/Item.php:140
+Stack trace:
+#0 /app/src/Controller/ManagementController.php(276): App\Model\Item->saveBlob('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 'image/png')
+#1 [internal function]: App\Controller\ManagementController->newItem()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(81): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/Item.php on line 140
+[16-Jun-2025 13:00:32 UTC] PHP Fatal error:  Access level to App\Model\Item::$db must be protected (as in class App\Model\BaseModel) or weaker in /app/src/Model/Item.php on line 5
+[16-Jun-2025 13:00:51 UTC] PHP Fatal error:  Access level to App\Model\Item::$db must be protected (as in class App\Model\BaseModel) or weaker in /app/src/Model/Item.php on line 5
+[16-Jun-2025 13:00:55 UTC] PHP Fatal error:  Access level to App\Model\Item::$db must be protected (as in class App\Model\BaseModel) or weaker in /app/src/Model/Item.php on line 5
+[16-Jun-2025 13:00:56 UTC] PHP Fatal error:  Access level to App\Model\Item::$db must be protected (as in class App\Model\BaseModel) or weaker in /app/src/Model/Item.php on line 5
+[16-Jun-2025 13:00:58 UTC] PHP Fatal error:  Access level to App\Model\Item::$db must be protected (as in class App\Model\BaseModel) or weaker in /app/src/Model/Item.php on line 5
+[16-Jun-2025 13:01:02 UTC] PHP Fatal error:  Access level to App\Model\Item::$db must be protected (as in class App\Model\BaseModel) or weaker in /app/src/Model/Item.php on line 5
+[16-Jun-2025 13:01:32 UTC] PHP Fatal error:  Access level to App\Model\Item::$db must be protected (as in class App\Model\BaseModel) or weaker in /app/src/Model/Item.php on line 5
+[16-Jun-2025 13:02:12 UTC] PHP Fatal error:  Uncaught Exception: Failed to save blob: SQLSTATE[22021]: Character not in repertoire: 7 ERROR:  invalid byte sequence for encoding "UTF8": 0x89
+CONTEXT:  unnamed portal parameter $1 in /app/src/Model/Item.php:151
+Stack trace:
+#0 /app/src/Controller/ManagementController.php(276): App\Model\Item->saveBlob('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 'image/png')
+#1 [internal function]: App\Controller\ManagementController->newItem()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(81): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/Item.php on line 151
+[16-Jun-2025 13:08:57 UTC] PHP Deprecated:  pg_escape_bytea(): Automatic fetching of PostgreSQL connection is deprecated in /app/src/Model/Item.php on line 143
+[16-Jun-2025 13:08:57 UTC] PHP Fatal error:  Uncaught Exception: Failed to save blob: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "data" of relation "blobs" violates not-null constraint
+DETAIL:  Failing row contains (1, null, null, 2025-06-16 13:08:57.506831). in /app/src/Model/Item.php:156
+Stack trace:
+#0 /app/src/Controller/ManagementController.php(276): App\Model\Item->saveBlob('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 'image/png')
+#1 [internal function]: App\Controller\ManagementController->newItem()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(81): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/Item.php on line 156
+[16-Jun-2025 13:11:43 UTC] PHP Fatal error:  Uncaught Exception: Failed to save blob: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "data" of relation "blobs" violates not-null constraint
+DETAIL:  Failing row contains (2, null, null, 2025-06-16 13:11:43.783084). in /app/src/Model/Item.php:155
+Stack trace:
+#0 /app/src/Controller/ManagementController.php(276): App\Model\Item->saveBlob('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 'image/png')
+#1 [internal function]: App\Controller\ManagementController->newItem()
+#2 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#3 /app/index.php(81): App\Router->route()
+#4 {main}
+  thrown in /app/src/Model/Item.php on line 155
+[16-Jun-2025 13:13:58 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, string given in /app/src/Model/Item.php:168
+Stack trace:
+#0 /app/src/Model/Item.php(168): fclose('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 /app/src/Controller/ManagementController.php(276): App\Model\Item->saveBlob('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 'image/png')
+#2 [internal function]: App\Controller\ManagementController->newItem()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(81): App\Router->route()
+#5 {main}
+  thrown in /app/src/Model/Item.php on line 168
+[16-Jun-2025 13:14:15 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, string given in /app/src/Model/Item.php:168
+Stack trace:
+#0 /app/src/Model/Item.php(168): fclose('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 /app/src/Controller/ManagementController.php(276): App\Model\Item->saveBlob('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...', 'image/png')
+#2 [internal function]: App\Controller\ManagementController->newItem()
+#3 /app/src/Router.php(47): call_user_func_array(Array, Array)
+#4 /app/index.php(81): App\Router->route()
+#5 {main}
+  thrown in /app/src/Model/Item.php on line 168
+[16-Jun-2025 13:21:45 UTC] Serving blob ID: 7
+[16-Jun-2025 13:21:45 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:21:45 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:21:45 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:21:45 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:21:45 UTC] Blob data length: 499686
+[16-Jun-2025 13:21:45 UTC] Serving blob ID: 5
+[16-Jun-2025 13:21:45 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:21:45 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:21:45 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:21:45 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:21:45 UTC] Blob data length: 499686
+[16-Jun-2025 13:21:45 UTC] Serving blob ID: 6
+[16-Jun-2025 13:21:45 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:21:45 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:21:45 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:21:45 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:21:45 UTC] Blob data length: 499686
+[16-Jun-2025 13:21:55 UTC] Serving blob ID: 7
+[16-Jun-2025 13:21:55 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:21:55 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:21:55 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:21:55 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:21:55 UTC] Blob data length: 499686
+[16-Jun-2025 13:21:55 UTC] Serving blob ID: 6
+[16-Jun-2025 13:21:55 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:21:55 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:21:55 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:21:55 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:21:55 UTC] Blob data length: 499686
+[16-Jun-2025 13:21:55 UTC] Serving blob ID: 5
+[16-Jun-2025 13:21:55 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:21:55 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:21:55 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:21:55 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:21:55 UTC] Blob data length: 499686
+[16-Jun-2025 13:22:31 UTC] Serving blob ID: 6
+[16-Jun-2025 13:22:31 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:22:31 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:22:31 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:22:31 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:22:31 UTC] Blob data length: 499686
+[16-Jun-2025 13:22:31 UTC] Serving blob ID: 5
+[16-Jun-2025 13:22:31 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:22:31 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:22:31 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:22:31 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:22:31 UTC] Blob data length: 499686
+[16-Jun-2025 13:22:31 UTC] Serving blob ID: 7
+[16-Jun-2025 13:22:31 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:22:31 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:22:31 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:22:31 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:22:31 UTC] Blob data length: 499686
+[16-Jun-2025 13:22:43 UTC] Serving blob ID: 8
+[16-Jun-2025 13:22:43 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:22:43 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:22:43 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:22:43 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:22:43 UTC] Blob data length: 175608
+[16-Jun-2025 13:22:43 UTC] Serving blob ID: 6
+[16-Jun-2025 13:22:43 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:22:43 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:22:43 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:22:43 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:22:43 UTC] Blob data length: 499686
+[16-Jun-2025 13:22:43 UTC] Serving blob ID: 7
+[16-Jun-2025 13:22:43 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:22:43 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:22:43 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:22:43 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:22:43 UTC] Blob data length: 499686
+[16-Jun-2025 13:22:43 UTC] Serving blob ID: 5
+[16-Jun-2025 13:22:43 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:22:43 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:22:43 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:22:43 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:22:43 UTC] Blob data length: 499686
+[16-Jun-2025 13:23:50 UTC] Serving blob ID: 6
+[16-Jun-2025 13:23:50 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:23:50 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:23:50 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:23:50 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:23:50 UTC] Blob data length: 499686
+[16-Jun-2025 13:23:50 UTC] Serving blob ID: 8
+[16-Jun-2025 13:23:50 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:23:50 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:23:50 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:23:50 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:23:50 UTC] Blob data length: 175608
+[16-Jun-2025 13:23:50 UTC] Serving blob ID: 7
+[16-Jun-2025 13:23:50 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:23:50 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:23:50 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:23:50 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:23:50 UTC] Blob data length: 499686
+[16-Jun-2025 13:23:50 UTC] Serving blob ID: 5
+[16-Jun-2025 13:23:50 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:23:50 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:23:50 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:23:50 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:23:50 UTC] Blob data length: 499686
+[16-Jun-2025 13:25:31 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:25:31 UTC] Found 4 items
+[16-Jun-2025 13:25:31 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:25:31 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:25:31 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:25:31 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:25:31 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:25:31 UTC] Serving blob ID: 6
+[16-Jun-2025 13:25:31 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:25:31 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:25:31 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:25:31 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:25:31 UTC] Blob data length: 499686
+[16-Jun-2025 13:25:31 UTC] Serving blob ID: 8
+[16-Jun-2025 13:25:31 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:25:31 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:25:31 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:25:32 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:25:32 UTC] Blob data length: 175608
+[16-Jun-2025 13:25:32 UTC] Serving blob ID: 7
+[16-Jun-2025 13:25:32 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:25:32 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:25:32 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:25:32 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:25:32 UTC] Blob data length: 499686
+[16-Jun-2025 13:25:32 UTC] Serving blob ID: 5
+[16-Jun-2025 13:25:32 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:25:32 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:25:32 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:25:32 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:25:32 UTC] Blob data length: 499686
+[16-Jun-2025 13:25:35 UTC] Serving blob ID: 7
+[16-Jun-2025 13:25:35 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:25:35 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:25:35 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:25:35 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:25:35 UTC] Blob data length: 499686
+[16-Jun-2025 13:25:35 UTC] Serving blob ID: 6
+[16-Jun-2025 13:25:35 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:25:35 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:25:35 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:25:35 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:25:35 UTC] Blob data length: 499686
+[16-Jun-2025 13:25:35 UTC] Serving blob ID: 5
+[16-Jun-2025 13:25:35 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:25:35 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:25:35 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:25:35 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:25:35 UTC] Blob data length: 499686
+[16-Jun-2025 13:25:35 UTC] Serving blob ID: 8
+[16-Jun-2025 13:25:35 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:25:35 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:25:35 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:25:35 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:25:35 UTC] Blob data length: 175608
+[16-Jun-2025 13:25:53 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:25:53 UTC] Found 4 items
+[16-Jun-2025 13:25:53 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:25:53 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:25:53 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:25:53 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:25:53 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:25:53 UTC] Serving blob ID: 6
+[16-Jun-2025 13:25:53 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:25:53 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:25:53 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:25:53 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:25:53 UTC] Blob data length: 499686
+[16-Jun-2025 13:25:53 UTC] Serving blob ID: 8
+[16-Jun-2025 13:25:53 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:25:53 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:25:53 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:25:53 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:25:53 UTC] Blob data length: 175608
+[16-Jun-2025 13:25:53 UTC] Serving blob ID: 7
+[16-Jun-2025 13:25:53 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:25:53 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:25:53 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:25:53 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:25:53 UTC] Blob data length: 499686
+[16-Jun-2025 13:25:54 UTC] Serving blob ID: 5
+[16-Jun-2025 13:25:54 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:25:54 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:25:54 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:25:54 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:25:54 UTC] Blob data length: 499686
+[16-Jun-2025 13:28:39 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:28:39 UTC] Found 4 items
+[16-Jun-2025 13:28:39 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:28:39 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:28:39 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:28:39 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:28:39 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:28:39 UTC] Serving blob ID: 8
+[16-Jun-2025 13:28:39 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:28:39 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:28:39 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:28:39 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:28:39 UTC] Blob data length: 175608
+[16-Jun-2025 13:28:39 UTC] Serving blob ID: 7
+[16-Jun-2025 13:28:39 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:28:39 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:28:39 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:28:39 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:28:39 UTC] Blob data length: 499686
+[16-Jun-2025 13:28:39 UTC] Serving blob ID: 6
+[16-Jun-2025 13:28:39 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:28:39 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:28:39 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:28:39 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:28:39 UTC] Blob data length: 499686
+[16-Jun-2025 13:28:39 UTC] Serving blob ID: 5
+[16-Jun-2025 13:28:39 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:28:39 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:28:39 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:28:39 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:28:39 UTC] Blob data length: 499686
+[16-Jun-2025 13:30:44 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:30:44 UTC] Found 4 items
+[16-Jun-2025 13:30:44 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:30:44 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:30:44 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:30:44 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:30:44 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:30:44 UTC] Serving blob ID: 6
+[16-Jun-2025 13:30:44 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:30:44 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:30:44 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:30:44 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:30:44 UTC] Blob data length: 499686
+[16-Jun-2025 13:30:44 UTC] Serving blob ID: 7
+[16-Jun-2025 13:30:44 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:30:44 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:30:44 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:30:44 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:30:44 UTC] Blob data length: 499686
+[16-Jun-2025 13:30:44 UTC] Serving blob ID: 8
+[16-Jun-2025 13:30:44 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:30:44 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:30:44 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:30:44 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:30:44 UTC] Blob data length: 175608
+[16-Jun-2025 13:30:44 UTC] Serving blob ID: 5
+[16-Jun-2025 13:30:44 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:30:44 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:30:44 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:30:44 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:30:44 UTC] Blob data length: 499686
+[16-Jun-2025 13:31:05 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:31:05 UTC] Found 4 items
+[16-Jun-2025 13:31:05 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:31:05 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:31:05 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:31:05 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:31:05 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:31:05 UTC] Serving blob ID: 7
+[16-Jun-2025 13:31:05 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:31:05 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:31:05 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:31:05 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:31:05 UTC] Blob data length: 499686
+[16-Jun-2025 13:31:05 UTC] Serving blob ID: 6
+[16-Jun-2025 13:31:05 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:31:05 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:31:05 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:31:05 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:31:05 UTC] Blob data length: 499686
+[16-Jun-2025 13:31:05 UTC] Serving blob ID: 8
+[16-Jun-2025 13:31:05 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:31:05 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:31:05 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:31:05 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:31:05 UTC] Blob data length: 175608
+[16-Jun-2025 13:31:05 UTC] Serving blob ID: 5
+[16-Jun-2025 13:31:05 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:31:05 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:31:05 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:31:05 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:31:05 UTC] Blob data length: 499686
+[16-Jun-2025 13:34:45 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:34:45 UTC] Found 4 items
+[16-Jun-2025 13:34:45 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:34:45 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:34:45 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:34:45 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:34:45 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:34:45 UTC] Serving blob ID: 7
+[16-Jun-2025 13:34:45 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:34:45 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:34:45 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:34:45 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:34:45 UTC] Blob data length: 499686
+[16-Jun-2025 13:34:45 UTC] Serving blob ID: 8
+[16-Jun-2025 13:34:46 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:34:46 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:34:46 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:34:46 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:34:46 UTC] Blob data length: 175608
+[16-Jun-2025 13:34:46 UTC] Serving blob ID: 5
+[16-Jun-2025 13:34:46 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:34:46 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:34:46 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:34:46 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:34:46 UTC] Blob data length: 499686
+[16-Jun-2025 13:34:46 UTC] Serving blob ID: 6
+[16-Jun-2025 13:34:46 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:34:46 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:34:46 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:34:46 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:34:46 UTC] Blob data length: 499686
+[16-Jun-2025 13:35:24 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:35:24 UTC] Found 4 items
+[16-Jun-2025 13:35:24 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:35:24 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:35:24 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:35:24 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:35:24 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:35:24 UTC] Serving blob ID: 7
+[16-Jun-2025 13:35:24 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:35:24 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:35:24 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:35:24 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:35:24 UTC] Blob data length: 499686
+[16-Jun-2025 13:35:24 UTC] Serving blob ID: 6
+[16-Jun-2025 13:35:24 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:35:24 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:35:24 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:35:24 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:35:24 UTC] Blob data length: 499686
+[16-Jun-2025 13:35:24 UTC] Serving blob ID: 8
+[16-Jun-2025 13:35:24 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:35:24 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:35:24 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:35:24 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:35:24 UTC] Blob data length: 175608
+[16-Jun-2025 13:35:24 UTC] Serving blob ID: 5
+[16-Jun-2025 13:35:24 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:35:24 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:35:24 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:35:24 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:35:24 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:00 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:37:00 UTC] Found 4 items
+[16-Jun-2025 13:37:00 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:37:00 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:37:00 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:37:00 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:37:00 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:37:00 UTC] Serving blob ID: 8
+[16-Jun-2025 13:37:00 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:37:00 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:37:00 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:37:00 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:37:00 UTC] Blob data length: 175608
+[16-Jun-2025 13:37:00 UTC] Serving blob ID: 6
+[16-Jun-2025 13:37:00 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:37:00 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:00 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:00 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:00 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:00 UTC] Serving blob ID: 7
+[16-Jun-2025 13:37:00 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:37:00 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:00 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:00 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:00 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:00 UTC] Serving blob ID: 5
+[16-Jun-2025 13:37:00 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:37:00 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:00 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:00 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:00 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:08 UTC] API Request - Filters: {"search":"","types":["Armor"],"acts":[],"rarities":[]}
+[16-Jun-2025 13:37:08 UTC] Found 0 items
+[16-Jun-2025 13:37:08 UTC] API Response: {"success":true,"filters":{"search":"","types":["Armor"],"acts":[],"rarities":[]},"count":0,"items":[]}
+[16-Jun-2025 13:37:09 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:37:09 UTC] Found 4 items
+[16-Jun-2025 13:37:09 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:37:09 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:37:09 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:37:09 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:37:09 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:37:09 UTC] Serving blob ID: 6
+[16-Jun-2025 13:37:09 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:37:09 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:09 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:09 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:09 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:09 UTC] Serving blob ID: 5
+[16-Jun-2025 13:37:09 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:37:09 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:09 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:09 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:09 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:09 UTC] Serving blob ID: 8
+[16-Jun-2025 13:37:09 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:37:09 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:37:09 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:37:09 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:37:09 UTC] Blob data length: 175608
+[16-Jun-2025 13:37:09 UTC] Serving blob ID: 7
+[16-Jun-2025 13:37:09 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:37:09 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:09 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:09 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:09 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:21 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":["Rare"]}
+[16-Jun-2025 13:37:21 UTC] Found 1 items
+[16-Jun-2025 13:37:21 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:37:21 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":["Rare"]},"count":1,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"}]}
+[16-Jun-2025 13:37:21 UTC] Serving blob ID: 8
+[16-Jun-2025 13:37:21 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:37:21 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:37:21 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:37:21 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:37:21 UTC] Blob data length: 175608
+[16-Jun-2025 13:37:22 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:37:22 UTC] Found 4 items
+[16-Jun-2025 13:37:22 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:37:22 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:37:22 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:37:22 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:37:22 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:37:22 UTC] Serving blob ID: 5
+[16-Jun-2025 13:37:22 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:37:22 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:22 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:22 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:22 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:22 UTC] Serving blob ID: 6
+[16-Jun-2025 13:37:22 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:37:22 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:22 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:22 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:22 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:22 UTC] Serving blob ID: 7
+[16-Jun-2025 13:37:22 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:37:22 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:22 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:22 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:22 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:22 UTC] Serving blob ID: 8
+[16-Jun-2025 13:37:22 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:37:22 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:37:22 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:37:22 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:37:22 UTC] Blob data length: 175608
+[16-Jun-2025 13:37:24 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":["Common"]}
+[16-Jun-2025 13:37:24 UTC] Found 3 items
+[16-Jun-2025 13:37:24 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:37:24 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:37:24 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:37:24 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":["Common"]},"count":3,"items":[{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:37:24 UTC] Serving blob ID: 5
+[16-Jun-2025 13:37:24 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:37:24 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:24 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:24 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:24 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:24 UTC] Serving blob ID: 7
+[16-Jun-2025 13:37:24 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:37:24 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:24 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:24 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:24 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:24 UTC] Serving blob ID: 6
+[16-Jun-2025 13:37:24 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:37:24 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:24 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:24 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:24 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:25 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:37:25 UTC] Found 4 items
+[16-Jun-2025 13:37:25 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:37:25 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:37:25 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:37:25 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:37:25 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:37:25 UTC] Serving blob ID: 6
+[16-Jun-2025 13:37:25 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:37:25 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:25 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:25 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:25 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:25 UTC] Serving blob ID: 5
+[16-Jun-2025 13:37:25 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:37:25 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:25 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:25 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:25 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:25 UTC] Serving blob ID: 8
+[16-Jun-2025 13:37:25 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:37:25 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:37:25 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:37:25 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:37:25 UTC] Blob data length: 175608
+[16-Jun-2025 13:37:25 UTC] Serving blob ID: 7
+[16-Jun-2025 13:37:25 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:37:25 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:25 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:25 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:25 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:27 UTC] API Request - Filters: {"search":"","types":[],"acts":["1"],"rarities":[]}
+[16-Jun-2025 13:37:27 UTC] Found 4 items
+[16-Jun-2025 13:37:27 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:37:27 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:37:27 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:37:27 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:37:27 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":["1"],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:37:27 UTC] Serving blob ID: 6
+[16-Jun-2025 13:37:27 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:37:27 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:27 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:27 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:27 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:27 UTC] Serving blob ID: 5
+[16-Jun-2025 13:37:27 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:37:27 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:27 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:27 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:27 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:27 UTC] Serving blob ID: 8
+[16-Jun-2025 13:37:27 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:37:27 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:37:27 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:37:27 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:37:27 UTC] Blob data length: 175608
+[16-Jun-2025 13:37:27 UTC] Serving blob ID: 7
+[16-Jun-2025 13:37:27 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:37:27 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:27 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:27 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:27 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:28 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:37:28 UTC] Found 4 items
+[16-Jun-2025 13:37:28 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:37:28 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:37:28 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:37:28 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:37:28 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:37:28 UTC] Serving blob ID: 6
+[16-Jun-2025 13:37:28 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:37:28 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:28 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:28 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:28 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:28 UTC] Serving blob ID: 5
+[16-Jun-2025 13:37:28 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:37:28 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:28 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:28 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:28 UTC] Blob data length: 499686
+[16-Jun-2025 13:37:28 UTC] Serving blob ID: 8
+[16-Jun-2025 13:37:28 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:37:28 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:37:28 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:37:28 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:37:28 UTC] Blob data length: 175608
+[16-Jun-2025 13:37:28 UTC] Serving blob ID: 7
+[16-Jun-2025 13:37:28 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:37:28 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:37:28 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:37:28 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:37:28 UTC] Blob data length: 499686
+[16-Jun-2025 13:42:12 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:42:12 UTC] Found 4 items
+[16-Jun-2025 13:42:12 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:42:12 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:42:12 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:42:12 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:42:12 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:42:12 UTC] Serving blob ID: 7
+[16-Jun-2025 13:42:12 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:42:12 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:42:12 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:42:12 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:42:12 UTC] Blob data length: 499686
+[16-Jun-2025 13:42:12 UTC] Serving blob ID: 6
+[16-Jun-2025 13:42:12 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:42:12 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:42:12 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:42:12 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:42:12 UTC] Blob data length: 499686
+[16-Jun-2025 13:42:12 UTC] Serving blob ID: 8
+[16-Jun-2025 13:42:12 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:42:12 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:42:12 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:42:12 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:42:12 UTC] Blob data length: 175608
+[16-Jun-2025 13:42:12 UTC] Serving blob ID: 5
+[16-Jun-2025 13:42:12 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:42:12 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:42:12 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:42:12 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:42:12 UTC] Blob data length: 499686
+[16-Jun-2025 13:43:32 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:43:32 UTC] Found 4 items
+[16-Jun-2025 13:43:32 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:43:32 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:43:32 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:43:32 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:43:32 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:43:32 UTC] Serving blob ID: 7
+[16-Jun-2025 13:43:32 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:43:32 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:43:32 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:43:32 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:43:32 UTC] Blob data length: 499686
+[16-Jun-2025 13:43:32 UTC] Serving blob ID: 5
+[16-Jun-2025 13:43:32 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:43:32 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:43:32 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:43:32 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:43:32 UTC] Blob data length: 499686
+[16-Jun-2025 13:43:32 UTC] Serving blob ID: 8
+[16-Jun-2025 13:43:32 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:43:33 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:43:33 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:43:33 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:43:33 UTC] Blob data length: 175608
+[16-Jun-2025 13:43:33 UTC] Serving blob ID: 6
+[16-Jun-2025 13:43:33 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:43:33 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:43:33 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:43:33 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:43:33 UTC] Blob data length: 499686
+[16-Jun-2025 13:43:59 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:43:59 UTC] Found 4 items
+[16-Jun-2025 13:43:59 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:43:59 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:43:59 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:43:59 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:43:59 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:43:59 UTC] Serving blob ID: 6
+[16-Jun-2025 13:43:59 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:43:59 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:43:59 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:43:59 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:43:59 UTC] Blob data length: 499686
+[16-Jun-2025 13:43:59 UTC] Serving blob ID: 7
+[16-Jun-2025 13:43:59 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:43:59 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:43:59 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:43:59 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:43:59 UTC] Blob data length: 499686
+[16-Jun-2025 13:43:59 UTC] Serving blob ID: 5
+[16-Jun-2025 13:43:59 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:43:59 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:43:59 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:43:59 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:43:59 UTC] Blob data length: 499686
+[16-Jun-2025 13:43:59 UTC] Serving blob ID: 8
+[16-Jun-2025 13:43:59 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:43:59 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:43:59 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:43:59 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:43:59 UTC] Blob data length: 175608
+[16-Jun-2025 13:44:14 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:44:14 UTC] Found 4 items
+[16-Jun-2025 13:44:14 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:44:14 UTC] Item 6 - Thumbnail ID: 7
+[16-Jun-2025 13:44:14 UTC] Item 5 - Thumbnail ID: 6
+[16-Jun-2025 13:44:14 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:44:14 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":4,"items":[{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":6,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/7"},{"id":5,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/6"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:44:14 UTC] Serving blob ID: 6
+[16-Jun-2025 13:44:14 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:44:14 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:14 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:14 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:14 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:14 UTC] Serving blob ID: 8
+[16-Jun-2025 13:44:14 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:44:14 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:44:14 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:44:14 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:44:14 UTC] Blob data length: 175608
+[16-Jun-2025 13:44:14 UTC] Serving blob ID: 7
+[16-Jun-2025 13:44:14 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:44:14 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:14 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:14 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:14 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:14 UTC] Serving blob ID: 5
+[16-Jun-2025 13:44:14 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:44:14 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:14 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:14 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:14 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:18 UTC] Serving blob ID: 7
+[16-Jun-2025 13:44:18 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:44:18 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:18 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:18 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:18 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:18 UTC] Serving blob ID: 8
+[16-Jun-2025 13:44:18 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:44:19 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:44:19 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:44:19 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:44:19 UTC] Blob data length: 175608
+[16-Jun-2025 13:44:19 UTC] Serving blob ID: 6
+[16-Jun-2025 13:44:19 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:44:19 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:19 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:19 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:19 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:19 UTC] Serving blob ID: 5
+[16-Jun-2025 13:44:19 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:44:19 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:19 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:19 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:19 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:28 UTC] Serving blob ID: 5
+[16-Jun-2025 13:44:28 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:44:28 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:28 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:28 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:28 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:28 UTC] Serving blob ID: 6
+[16-Jun-2025 13:44:28 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:44:28 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:28 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:28 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:28 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:28 UTC] Serving blob ID: 8
+[16-Jun-2025 13:44:28 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:44:28 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:44:28 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:44:28 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:44:28 UTC] Blob data length: 175608
+[16-Jun-2025 13:44:29 UTC] Serving blob ID: 7
+[16-Jun-2025 13:44:29 UTC] Getting blob with ID: 7
+[16-Jun-2025 13:44:29 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:29 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:29 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:29 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:34 UTC] Serving blob ID: 8
+[16-Jun-2025 13:44:34 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:44:34 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:44:34 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:44:34 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:44:34 UTC] Blob data length: 175608
+[16-Jun-2025 13:44:34 UTC] Serving blob ID: 5
+[16-Jun-2025 13:44:34 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:44:34 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:34 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:34 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:34 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:34 UTC] Serving blob ID: 6
+[16-Jun-2025 13:44:34 UTC] Getting blob with ID: 6
+[16-Jun-2025 13:44:34 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:34 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:34 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:34 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:36 UTC] Serving blob ID: 5
+[16-Jun-2025 13:44:36 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:44:36 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:44:36 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:44:36 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:44:36 UTC] Blob data length: 499686
+[16-Jun-2025 13:44:36 UTC] Serving blob ID: 8
+[16-Jun-2025 13:44:36 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:44:36 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:44:36 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:44:36 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:44:36 UTC] Blob data length: 175608
+[16-Jun-2025 13:45:08 UTC] Serving blob ID: 9
+[16-Jun-2025 13:45:08 UTC] Getting blob with ID: 9
+[16-Jun-2025 13:45:08 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:45:08 UTC] Decoded blob data length: 84005
+[16-Jun-2025 13:45:08 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:45:08 UTC] Blob data length: 84005
+[16-Jun-2025 13:45:08 UTC] Serving blob ID: 8
+[16-Jun-2025 13:45:08 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:45:08 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:45:08 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:45:08 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:45:08 UTC] Blob data length: 175608
+[16-Jun-2025 13:45:08 UTC] Serving blob ID: 5
+[16-Jun-2025 13:45:08 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:45:08 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:45:08 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:45:08 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:45:08 UTC] Blob data length: 499686
+[16-Jun-2025 13:47:43 UTC] Serving blob ID: 9
+[16-Jun-2025 13:47:43 UTC] Getting blob with ID: 9
+[16-Jun-2025 13:47:43 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:47:43 UTC] Decoded blob data length: 84005
+[16-Jun-2025 13:47:43 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:47:43 UTC] Blob data length: 84005
+[16-Jun-2025 13:47:43 UTC] Serving blob ID: 8
+[16-Jun-2025 13:47:43 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:47:43 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:47:43 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:47:43 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:47:43 UTC] Blob data length: 175608
+[16-Jun-2025 13:47:43 UTC] Serving blob ID: 5
+[16-Jun-2025 13:47:43 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:47:43 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:47:43 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:47:43 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:47:43 UTC] Blob data length: 499686
+[16-Jun-2025 13:48:41 UTC] Serving blob ID: 8
+[16-Jun-2025 13:48:41 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:48:41 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:48:41 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:48:41 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:48:41 UTC] Blob data length: 175608
+[16-Jun-2025 13:48:41 UTC] Serving blob ID: 9
+[16-Jun-2025 13:48:41 UTC] Getting blob with ID: 9
+[16-Jun-2025 13:48:41 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:48:41 UTC] Decoded blob data length: 84005
+[16-Jun-2025 13:48:41 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:48:41 UTC] Blob data length: 84005
+[16-Jun-2025 13:48:41 UTC] Serving blob ID: 5
+[16-Jun-2025 13:48:41 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:48:41 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:48:41 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:48:41 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:48:41 UTC] Blob data length: 499686
+[16-Jun-2025 13:50:11 UTC] Serving blob ID: 5
+[16-Jun-2025 13:50:11 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:50:11 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:50:11 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:50:11 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:50:11 UTC] Blob data length: 499686
+[16-Jun-2025 13:50:11 UTC] Serving blob ID: 8
+[16-Jun-2025 13:50:11 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:50:11 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:50:11 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:50:11 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:50:11 UTC] Blob data length: 175608
+[16-Jun-2025 13:50:11 UTC] Serving blob ID: 9
+[16-Jun-2025 13:50:11 UTC] Getting blob with ID: 9
+[16-Jun-2025 13:50:11 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:50:11 UTC] Decoded blob data length: 84005
+[16-Jun-2025 13:50:11 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:50:11 UTC] Blob data length: 84005
+[16-Jun-2025 13:50:49 UTC] Serving blob ID: 8
+[16-Jun-2025 13:50:49 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:50:49 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:50:49 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:50:49 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:50:49 UTC] Blob data length: 175608
+[16-Jun-2025 13:50:49 UTC] Serving blob ID: 9
+[16-Jun-2025 13:50:49 UTC] Getting blob with ID: 9
+[16-Jun-2025 13:50:49 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:50:49 UTC] Decoded blob data length: 84005
+[16-Jun-2025 13:50:49 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:50:49 UTC] Blob data length: 84005
+[16-Jun-2025 13:50:49 UTC] Serving blob ID: 5
+[16-Jun-2025 13:50:49 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:50:49 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:50:49 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:50:49 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:50:49 UTC] Blob data length: 499686
+[16-Jun-2025 13:51:44 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:51:44 UTC] Found 3 items
+[16-Jun-2025 13:51:44 UTC] Item 8 - Thumbnail ID: 9
+[16-Jun-2025 13:51:44 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:51:44 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:51:44 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":3,"items":[{"id":8,"name":"Baldurs gate test item","type":"Heavy armor","act":"2","rarity":"Legendary","description":"Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ","notes":"Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ","image_url":"\/blob\/9"},{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:51:44 UTC] Serving blob ID: 8
+[16-Jun-2025 13:51:44 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:51:44 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:51:44 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:51:44 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:51:44 UTC] Blob data length: 175608
+[16-Jun-2025 13:51:44 UTC] Serving blob ID: 9
+[16-Jun-2025 13:51:44 UTC] Getting blob with ID: 9
+[16-Jun-2025 13:51:44 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:51:44 UTC] Decoded blob data length: 84005
+[16-Jun-2025 13:51:44 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:51:44 UTC] Blob data length: 84005
+[16-Jun-2025 13:51:44 UTC] Serving blob ID: 5
+[16-Jun-2025 13:51:44 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:51:44 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:51:44 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:51:44 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:51:44 UTC] Blob data length: 499686
+[16-Jun-2025 13:53:20 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:53:20 UTC] Found 3 items
+[16-Jun-2025 13:53:20 UTC] Item 8 - Thumbnail ID: 9
+[16-Jun-2025 13:53:20 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:53:20 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:53:20 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":3,"items":[{"id":8,"name":"Baldurs gate test item","type":"Heavy armor","act":"2","rarity":"Legendary","description":"Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ","notes":"Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ","image_url":"\/blob\/9"},{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:53:20 UTC] Serving blob ID: 5
+[16-Jun-2025 13:53:20 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:53:20 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:53:20 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:53:20 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:53:20 UTC] Blob data length: 499686
+[16-Jun-2025 13:53:20 UTC] Serving blob ID: 8
+[16-Jun-2025 13:53:20 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:53:20 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:53:20 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:53:20 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:53:20 UTC] Blob data length: 175608
+[16-Jun-2025 13:53:20 UTC] Serving blob ID: 9
+[16-Jun-2025 13:53:20 UTC] Getting blob with ID: 9
+[16-Jun-2025 13:53:20 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:53:20 UTC] Decoded blob data length: 84005
+[16-Jun-2025 13:53:20 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:53:20 UTC] Blob data length: 84005
+[16-Jun-2025 13:56:22 UTC] API Request - Filters: {"search":"","types":[],"acts":[],"rarities":[]}
+[16-Jun-2025 13:56:22 UTC] Found 3 items
+[16-Jun-2025 13:56:22 UTC] Item 8 - Thumbnail ID: 9
+[16-Jun-2025 13:56:22 UTC] Item 7 - Thumbnail ID: 8
+[16-Jun-2025 13:56:22 UTC] Item 4 - Thumbnail ID: 5
+[16-Jun-2025 13:56:22 UTC] API Response: {"success":true,"filters":{"search":"","types":[],"acts":[],"rarities":[]},"count":3,"items":[{"id":8,"name":"Baldurs gate test item","type":"Heavy armor","act":"2","rarity":"Legendary","description":"Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ","notes":"Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ","image_url":"\/blob\/9"},{"id":7,"name":"asdfsad","type":"Medium armor","act":"1","rarity":"Rare","description":"asdgsdag","notes":"asdg","image_url":"\/blob\/8"},{"id":4,"name":"asdf","type":"Light armor","act":"1","rarity":"Common","description":"asdf","notes":"asdf","image_url":"\/blob\/5"}]}
+[16-Jun-2025 13:56:22 UTC] Serving blob ID: 5
+[16-Jun-2025 13:56:22 UTC] Getting blob with ID: 5
+[16-Jun-2025 13:56:22 UTC] Found blob with mime type: image/png
+[16-Jun-2025 13:56:22 UTC] Decoded blob data length: 499686
+[16-Jun-2025 13:56:22 UTC] Blob found with mime type: image/png
+[16-Jun-2025 13:56:22 UTC] Blob data length: 499686
+[16-Jun-2025 13:56:22 UTC] Serving blob ID: 9
+[16-Jun-2025 13:56:22 UTC] Getting blob with ID: 9
+[16-Jun-2025 13:56:22 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:56:22 UTC] Decoded blob data length: 84005
+[16-Jun-2025 13:56:22 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:56:22 UTC] Blob data length: 84005
+[16-Jun-2025 13:56:22 UTC] Serving blob ID: 8
+[16-Jun-2025 13:56:22 UTC] Getting blob with ID: 8
+[16-Jun-2025 13:56:22 UTC] Found blob with mime type: image/jpeg
+[16-Jun-2025 13:56:22 UTC] Decoded blob data length: 175608
+[16-Jun-2025 13:56:22 UTC] Blob found with mime type: image/jpeg
+[16-Jun-2025 13:56:22 UTC] Blob data length: 175608

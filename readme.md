@@ -1,33 +1,123 @@
-# Bazowa Strona (Landing Page) w PHP
+# 🎮 PHP Web Application Template
 
-Ten projekt zawiera przykładowy landing page z podstawowym stylem HTML/CSS osadzonym w pliku PHP.
+A modern PHP web application template with Docker containerization, PostgreSQL database, and Nginx web server.
 
-## Zawartość
+## Table of Contents
 
-- `index.php` – Główny plik PHP, w którym znajduje się struktura HTML oraz wbudowany styl CSS.
+1. [Project Overview](#project-overview)
+2. [Tech Stack](#tech-stack)
+3. [Project Structure](#project-structure)
+4. [Setup & Installation](#setup--installation)
+5. [Docker Configuration](#docker-configuration)
+6. [Application Architecture](#application-architecture)
 
-## Wymagania
+## Project Overview
 
-- Serwer obsługujący PHP (np. XAMPP, WAMP, MAMP lub dowolny inny serwer z włączonym PHP).
+This is a modern PHP web application template that demonstrates best practices in PHP development, including:
+- MVC architecture
+- Docker containerization
+- PostgreSQL database integration
+- Nginx web server configuration
+- Session management
+- User authentication and authorization
+- File upload handling
+- RESTful API endpoints
 
-## Uruchomienie
+## Tech Stack
 
-1. Umieść plik `index.php` w katalogu głównym swojego serwera (np. w `htdocs` przy użyciu XAMPP).
-2. Uruchom serwer i przejdź w przeglądarce do adresu:
+| Component    | Technology      | Version |
+|-------------|----------------|---------|
+| Backend     | PHP-FPM        | 8.x     |
+| Database    | PostgreSQL     | Latest  |
+| Web Server  | Nginx         | Latest  |
+| Containers  | Docker        | Latest  |
 
-lub innego odpowiedniego (w zależności od konfiguracji).
+## Project Structure
 
-## Działanie
+```
+.
+├── config/                 # Configuration files
+├── docker/                 # Docker configuration
+│   ├── db/                # PostgreSQL configuration
+│   ├── nginx/             # Nginx configuration
+│   └── php/               # PHP configuration
+├── public/                # Public assets
+├── scripts/               # Utility scripts
+├── src/                   # Application source code
+│   ├── Config/           # Application configuration
+│   ├── Controller/       # Controllers
+│   ├── Model/            # Data models
+│   ├── Repository/       # Data access layer
+│   ├── Router.php        # URL routing
+│   └── Utils/            # Utility classes
+├── test.php              # Test file
+├── views/                # View templates
+├── docker-compose.yaml   # Docker services configuration
+└── index.php            # Application entry point
+```
 
-- Landing page zawiera nagłówek, sekcję prezentacyjną (hero) ze zdjęciem i przyciskiem CTA (Call To Action), przykładowe informacje o firmie i stopkę.
-- Możesz rozszerzyć go o swoje własne sekcje i funkcjonalności, np. formularz kontaktowy (PHP), integrację z bazą danych, itp.
+## Setup & Installation
 
-## Struktura Kodowania
+1. Clone the repository
+2. Make sure Docker and Docker Compose are installed on your system
+3. Run the following commands:
 
-- **HTML** i **CSS** zostały osadzone w tym samym pliku `index.php`.
-- Kod CSS jest prosty i służy jedynie za bazę do dalszej rozbudowy.
-- Całość powinna być łatwa do modyfikacji oraz dostosowania do indywidualnych potrzeb.
+```bash
+# Start the Docker containers
+docker compose up -d
 
-## Autor
+# The application will be available at:
+# http://localhost:8080
+```
 
-- Ja
+## Docker Configuration
+
+The application uses four Docker containers:
+
+1. **web** (Nginx):
+   - Serves as the web server
+   - Port: 8080:80
+   - Configured in `docker/nginx/`
+
+2. **php** (PHP-FPM):
+   - Runs the PHP application
+   - Custom PHP configuration
+   - Configured in `docker/php/`
+
+3. **db** (PostgreSQL):
+   - Database server
+   - Port: 5433:5432
+   - Configured in `docker/db/`
+
+4. **pgadmin** (PostgreSQL Admin):
+   - Database management interface
+   - Port: 5050:80
+   - Access credentials:
+     - Email: admin@example.com
+     - Password: admin
+
+## Application Architecture
+
+The application follows the MVC (Model-View-Controller) pattern:
+
+- **Controllers** (`src/Controller/`):
+  - Handle HTTP requests
+  - Process user input
+  - Coordinate between Models and Views
+
+- **Models** (`src/Model/`):
+  - Represent data structures
+  - Contain business logic
+  - Interact with the database
+
+- **Views** (`views/`):
+  - Handle presentation logic
+  - Render HTML templates
+
+- **Router** (`src/Router.php`):
+  - Manages URL routing
+  - Maps URLs to controller actions
+  - Handles authentication middleware
+
+For more detailed information about how the application works, please refer to [ARCHITECTURE.md](docs/ARCHITECTURE.md).
+

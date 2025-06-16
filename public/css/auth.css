@@ -1,0 +1,107 @@
+/* Auth Pages Styles */
+.auth-container {
+    max-width: 400px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.auth-container h1 {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+}
+
+.error-message {
+    background-color: #ff4444;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    color: #999;
+    font-size: 0.875rem;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--primary-color-dark);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    transition: border-color 0.2s;
+}
+
+.btn-primary {
+    padding: 0.75rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.auth-links {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #999;
+}
+
+.auth-links a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+    .auth-container {
+        background-color: var(--background-color);
+    }
+
+    .form-group input {
+        background-color: #1a1a1a;
+        border-color: #333;
+        color: #fff;
+    }
+
+    .form-group input:focus {
+        border-color: var(--primary-color-dark);
+    }
+} 

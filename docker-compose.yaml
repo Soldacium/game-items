@@ -1,15 +1,15 @@
-version: '3'
-
 services:
   web:
     build:
       context: .
       dockerfile: docker/nginx/Dockerfile
+    container_name: game-items-web
     ports:
       - "8080:80"
     volumes:
-      - .:/app/
-    links:
+      - .:/app:delegated
+      - ./docker/nginx/logs:/var/log/nginx/
+    depends_on:
       - php
     networks:
       - pg-network
@@ -18,8 +18,16 @@ services:
     build:
       context: .
       dockerfile: docker/db/Dockerfile
+    container_name: game-items-db
     ports:
       - "5433:5432"
+    environment:
+      POSTGRES_DB: game_items
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+      - ./docker/db/init:/docker-entrypoint-initdb.d
     networks:
       - pg-network
   
@@ -27,24 +35,42 @@ services:
     build:
       context: .
       dockerfile: docker/php/Dockerfile
+    container_name: game-items-php
+    working_dir: /app
     volumes:
-      - .:/app
+      - .:/app:delegated
+      - ./docker/php/php.ini:/usr/local/etc/php/php.ini:ro
+      - ./docker/php/logs:/var/log/php
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_NAME: game_items
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+      PHP_INI_SCAN_DIR: "/usr/local/etc/php/conf.d:/usr/local/etc/php/custom.d"
+      PHP_IDE_CONFIG: "serverName=Docker"
+      PHP_DISPLAY_ERRORS: "1"
+      PHP_ERROR_REPORTING: "E_ALL"
     networks:
       - pg-network
   
   pgadmin:
     image: dpage/pgadmin4:latest
-    container_name: pg-admin2
+    container_name: game-items-pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@example.com
       PGADMIN_DEFAULT_PASSWORD: admin
     ports:
       - "5050:80"
+    depends_on:
+      - db
     networks:
       - pg-network
   
 networks:
   pg-network:
+    driver: bridge
 
 volumes:
   pg-data:
